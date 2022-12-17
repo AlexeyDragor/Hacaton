@@ -1,0 +1,217 @@
+@import "./fonts.css";
+
+:root {
+    --webinar-color: #DFAD63;
+    --join_chat-color: #8BB47D;
+    --privite_massage-color: #5982C0;
+    --participant-color: #A0A0A0;
+
+
+}
+
+/* BASE CONFIG */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color:
+}
+
+body {
+    font-family: "", Arial, Helvetica, sans-serif;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+ul,
+ol,
+li {
+    list-style-type: none
+}
+
+button {
+    background: none;
+    border: none;
+}
+
+/* BASE CONFIG */
+
+
+section {
+    max-width: 1460px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.row {
+    display: flex;
+}
+
+.col-3 {
+    width: 304px;
+}
+
+/* HEADER */
+
+
+/* MAIN*/
+.main {
+    background: #E5E5E5 no-repeat center/cover;
+    padding: 52px 0px 93px 0px;
+}
+
+.main__container {
+    padding: 0 60px;
+}
+
+.main__title {
+    margin-bottom: 19px;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 33px;
+    color: #3C3C3C;
+}
+
+.row {
+    flex-wrap: wrap;
+    column-gap: 25px;
+    row-gap: 20px;
+    max-width: 1345px;
+}
+
+
+.main__img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.card1 {
+    position: relative;
+    max-width: 100%;
+}
+
+.card__title {
+    position: absolute;
+    padding: 3px 8px 3px 7px;
+    width: 85px;
+    height: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
+    background: #DFAD63;
+    border-radius: 2px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+
+.card__bottom {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-areas: "card1 card2 card2 card2 card2";
+    width: 100%;
+    height: 222px;
+    background: #FFFFFF;
+}
+
+
+
+.discr__bottom {
+    height: 100%;
+    padding: 19px 0px 0px 5px;
+    margin-left: 10px;
+    text-align: ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.discr__button {
+    margin-bottom: 19px;
+}
+
+
+
+.discr__title {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    margin-bottom: 6px;
+}
+
+.discr__disc {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    margin-bottom: 7px;
+}
+
+.discr__text {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    margin-bottom: 33px;
+}
+
+.discr__button {
+    margin-right: 34px;
+    width: 200px;
+    height: 32px;
+    background: #5982C0;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    justify-items: center;
+
+}
+
+
+
+
+/* FOOTER */
+
+
+.join {
+    background-color: var(--join_chat-color)
+}
+
+.web {
+    background-color: var(--webinar-color)
+}
+
+.private {
+    background-color: var(--privite_massage-color)
+}
+
+.participant {
+    background-color: var(--participant-color)
+}
+
+.web2 {
+    background-color: var(--web2-color);
+}
+
+.online {
+    background-color: var(--online-color);
+}
+
+.inprivate {
+    background-color: var(--inprivate-color);
+}
+
+.offline {
+    background-color: var(--offline-color);
+}
